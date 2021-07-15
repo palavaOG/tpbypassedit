@@ -7,7 +7,7 @@
 getgenv().Teleport = {}
 
 --//TeleportSettings
-local tpclass = Teleport.Speed = 35
+local tpclass Teleport.Speed = 50
 Teleport.Notifications = true --Set it to false if you don't want notifications
 Teleport.CFrameType = true --Set it to false if you don't want your character rotate when you are teleporting (if you are teleporting a part changing it to false probably better idea)
 
@@ -142,4 +142,5 @@ function Teleport:TeleportPart(part)
 end
 
 print("Amnesia Teleport Class loaded")
+{"mode":"full","isActive":false}
 {"mode":"full","isActive":false}
